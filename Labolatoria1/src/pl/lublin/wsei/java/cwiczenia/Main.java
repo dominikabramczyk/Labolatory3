@@ -18,6 +18,7 @@ public class Main {
 //               LAB1
 //
 
+
         System.out.print("Ala\n");
         System.out.print("ma\n");
         System.out.print("kota\n\n");
