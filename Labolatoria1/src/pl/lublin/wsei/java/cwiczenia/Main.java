@@ -2,7 +2,8 @@ package pl.lublin.wsei.java.cwiczenia;
 
 
 import pl.lublin.wsei.java.cwiczenia.mylib.Account;
-
+import pl.lublin.wsei.java.cwiczenia.mylib.StringFun;
+import pl.lublin.wsei.java.cwiczenia.IsPalindromeTest;
 public class Main {
 
     public static void main(String[] args) {
@@ -12,7 +13,8 @@ public class Main {
         Account acc = new Account();
         acc.setName("dominik Abramczyk");
         System.out.println(acc.getName());
-        System.out.printf("%s%n",Account.capitalize("stanisŁaw maruSARz"));
+        System.out.printf("%s%n",Account.capitalize("stanisŁaw marusarz"));
+
 
 
 ////               LAB1
