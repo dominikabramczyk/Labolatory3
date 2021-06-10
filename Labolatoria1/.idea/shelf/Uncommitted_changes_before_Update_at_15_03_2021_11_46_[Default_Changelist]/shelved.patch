@@ -1,0 +1,52 @@
+Index: src/pl/lublin/wsei/java/cwiczenia/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pl.lublin.wsei.java.cwiczenia;\r\n\r\npublic class Main {\r\n\r\n    public static void main(String[] args) {\r\n\t// write your code here zmiana\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pl/lublin/wsei/java/cwiczenia/Main.java b/src/pl/lublin/wsei/java/cwiczenia/Main.java
+--- a/src/pl/lublin/wsei/java/cwiczenia/Main.java	(revision db303878cb56cdc48c3ec000afac392c4e71cd45)
++++ b/src/pl/lublin/wsei/java/cwiczenia/Main.java	(date 1615415286012)
+@@ -3,6 +3,40 @@
+ public class Main {
+ 
+     public static void main(String[] args) {
+-	// write your code here zmiana
++        System.out.print("Ala\n");
++        System.out.print("ma\n");
++        System.out.print("kota\n\n");
++        System.out.println("Ala");
++        System.out.println("ma");
++        System.out.println("kota\n\n");
++        System.out.print("Ala");
++        System.out.print("ma");
++        System.out.print("kota\n\n");
++        int a =3;
++        double b = 4.21;
++        String s = "Jakiś tekst";
++
++        System.out.printf("a=%d, b=%.2f , s=%20s%n\n\n",a,b,s );
++
++        System.out.printf("Nazwaliśmy to \"Witaminą B3\"\n");
++
++        System.out.printf("alfa  Ssin(alfa)\n");
++            for (int i=0; i < 370; i+=10)
++                System.out.printf("%d\t%f\t\n", i , Math.sin(i/360.0*2*Math.PI));
++
++        System.out.println("Argument  Logarytm  Suma");
++        int number = 1;
++        double result = 0;
++        for (int i=0; i < 10; i++) {
++            result = number + result;
++//            System.out.printf(number++ + "    //   " + log2(number) + "   //   " + result + "\n");
++            System.out.printf("%d   //    %.4f   //   %.4f\n",number,log2(number),result);
++            number++;
++        }
++    }
++
++    public static double log2(int x)
++    {
++        return (double) (Math.log(x) / Math.log(2));
+     }
+ }

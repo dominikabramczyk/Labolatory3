@@ -1,0 +1,18 @@
+Index: src/pl/lublin/wsei/java/cwiczenia/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pl.lublin.wsei.java.cwiczenia;\r\n\r\npublic class Main {\r\n\r\n    public static void main(String[] args) {\r\n\t// write your code here zmiana\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pl/lublin/wsei/java/cwiczenia/Main.java b/src/pl/lublin/wsei/java/cwiczenia/Main.java
+--- a/src/pl/lublin/wsei/java/cwiczenia/Main.java	(revision bd39c3ce56e652d15c209e92bfcabd7c2b286719)
++++ b/src/pl/lublin/wsei/java/cwiczenia/Main.java	(date 1615210940346)
+@@ -3,6 +3,6 @@
+ public class Main {
+ 
+     public static void main(String[] args) {
+-	// write your code here zmiana
++	System.out.println("Hello Java world\n");
+     }
+ }
